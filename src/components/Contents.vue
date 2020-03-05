@@ -1,9 +1,5 @@
 <template>
-  <div
-    v-infinite-scroll="loadMore"
-    infinite-scroll-disabled="busy"
-    infinite-scroll-distance="10"
-  >
+  <div v-infinite-scroll="loadMore" infinite-scroll-disabled="busy" infinite-scroll-distance="10">
     <div v-if="loading" class="loadingImg">
       <a-spin size="large" />
     </div>
@@ -20,16 +16,14 @@
               <div class="content-header">
                 <div class="content-header-name">
                   {{
-                    content.category_id === 1
-                      ? "apple"
-                      : content.category_id === 2
-                      ? "banana"
-                      : "coconut"
+                  content.category_id === 1
+                  ? "apple"
+                  : content.category_id === 2
+                  ? "banana"
+                  : "coconut"
                   }}
                 </div>
-                <div class="content-header-id">
-                  카테고리 ID : {{ content.category_id }}
-                </div>
+                <div class="content-header-id">카테고리 ID : {{ content.category_id }}</div>
               </div>
               <div class="content-body">
                 <div class="informationSection">
@@ -37,12 +31,8 @@
                   <span>|</span>
                   <div class="createdAt">{{ content.created_at }}</div>
                 </div>
-                <div class="body-title">
-                  {{ content.title }}
-                </div>
-                <div class="body-contents">
-                  {{ content.contents }}
-                </div>
+                <div class="body-title">{{ content.title }}</div>
+                <div class="body-contents">{{ content.contents }}</div>
               </div>
             </div>
           </div>
@@ -181,7 +171,6 @@ export default {
 .createdAt {
   margin-left: 10px;
 }
-
 .body-title {
   margin-top: 17px;
   font-size: 18px;
@@ -195,7 +184,6 @@ export default {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-
 .body-contents {
   margin-top: 6px;
   font-family: SpoqaHanSans;
