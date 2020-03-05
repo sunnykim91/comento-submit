@@ -1,19 +1,13 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App"
+};
 </script>
 
 <style>
@@ -21,8 +15,117 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+html,
+body,
+div,
+p,
+span,
+strong,
+b,
+em,
+iframe,
+pre,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+dl,
+dt,
+dd,
+fieldset,
+form,
+legend,
+label,
+table,
+caption,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td,
+ul,
+ol,
+li,
+a,
+input,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+}
+body {
+  font-family: MalgunGothic, "맑은 고딕", "돋움", Dotum, AppleGothic, Sans-serif,
+    Arial;
+  font-size: 12px;
+  line-height: 1;
+  color: #333;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+em,
+address {
+  font-style: normal;
+}
+img {
+  border: 0 none;
+  font-size: 0;
+  line-height: 0;
+}
+sup {
+  position: relative;
+  top: 2px;
+  font-size: 11px;
+  line-height: 100%;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption {
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+}
+th,
+td {
+  vertical-align: middle; /* white-space: nowrap */
+}
+a {
+  color: #333;
+  text-decoration: none;
+  line-height: 1;
+}
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
+}
+a:visited {
+  color: #333;
+}
+*,
+html {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 </style>

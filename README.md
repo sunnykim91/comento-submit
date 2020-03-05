@@ -1,24 +1,26 @@
-# comentoassignment
+# 코멘토 과제 제출
 
-## Project setup
-```
-yarn install
-```
+## 구현 목록
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+### 반응형 웹 PC, Mobile(480px)
 
-### Compiles and minifies for production
-```
-yarn build
-```
+### 피드 컨텐츠 불러오기
 
-### Lints and fixes files
-```
-yarn lint
-```
+### 무한로딩
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 오름차순, 내림차순
+
+### 필터 컴포넌트(모달)
+
+### 4번째 index마다 광고삽입
+
+### 디테일 페이지
+
+### 피드백 대응
+
+- 광고 없애기 버튼
+- 리스트 개수 선택 버튼
+- 이메일, 작성일 밑에 나오게
+- id가 무엇인지 표기
+- drag방지
+- spinner
