@@ -171,6 +171,7 @@ export default {
 .createdAt {
   margin-left: 10px;
 }
+
 .body-title {
   margin-top: 17px;
   font-size: 18px;
