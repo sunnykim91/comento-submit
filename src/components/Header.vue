@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div v-if="isMain" class="headerSection">
-      <div class="header-content">[2020.03.07] 김선휘</div>
+      <div class="header-content">[2020.03.05] 김선휘</div>
     </div>
     <div v-else class="backPage">
       <a-icon type="left" @click="moveHomePage()" />
